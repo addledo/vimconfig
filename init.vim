@@ -8,3 +8,5 @@ colorscheme darkblue
 
 let mapleader = " "
 nnoremap <leader>pv :Vex<CR>
+nnoremap <leader><CR> :so ~/.config/nvim/init.vim<CR>
+nnoremap <leader>con :edit ~/.config/nvim/init.vim<CR> 
